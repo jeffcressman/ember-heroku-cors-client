@@ -1,8 +1,6 @@
 # Ember-heroku-cors-client
 
-This README outlines the details of collaborating on this Ember application.
-
-A short introduction of this app could easily go here.
+A demo application for figuring out a good CORS solution for Ember running with a Rails API backend.
 
 ## Prerequisites
 

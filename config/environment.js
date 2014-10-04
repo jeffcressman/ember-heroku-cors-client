@@ -15,6 +15,7 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      API_SERVER_URL: 'http://localhost:3000'
     }
   };
 
@@ -31,7 +32,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+  	ENV.APP.API_SERVER_URL = 'http://ember-heroku-cors-server.heroku.com';
   }
 
   return ENV;
