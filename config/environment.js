@@ -32,7 +32,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-  	ENV.APP.API_SERVER_URL = 'http://ember-heroku-cors-server.heroku.com';
+  	ENV.APP.API_SERVER_URL = 'http://ember-heroku-cors-server.herokuapp.com';
   }
 
   return ENV;
