@@ -1,6 +1,30 @@
-# Ember-heroku-cors-client
+Ember Heroku Cors Client
+========================
 
-A demo application for figuring out a good CORS solution for Ember running with a Rails API backend.
+A demo application for figuring out a good CORS solution for an Ember frontend running with a Rails API backend.
+
+The API server for this project is [here]().
+
+The frontend is on Heroku [here](ember-heroku-cors-client.herokuapp.com).
+
+# TODO
+
+You can check out the Ember Wknd demo [client](https://github.com/jeffcressman/ember-wknd) and [server](https://github.com/jeffcressman/ember-wknd-server) for the following items which are currently implemented in that project.
+
+* CRUD operations for User
+* Add Devise
+* Add Ember Simple-Auth
+
+# Questions 
+
+* Check if we should be using RESTAdapter or ActiveModelAdapter
+
+## Heroku Setup
+
+```bash
+heroku create ember-heroku-cors-client --buildpack https://github.com/tonycoco/heroku-buildpack-ember-cli.git
+git push heroku master
+```
 
 ## Prerequisites
 
@@ -16,28 +40,10 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Run
 
-* `ember server`
+* `ember serve`
 * Visit your app at http://localhost:4200.
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
