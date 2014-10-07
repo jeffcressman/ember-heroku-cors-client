@@ -3,7 +3,7 @@ Ember Heroku Cors Client
 
 A demo application for figuring out a good CORS solution for an Ember frontend running with a Rails API backend.
 
-The API server for this project is [here]().
+The API server for this project is [here](https://github.com/jeffcressman/ember-heroku-cors-server).
 
 The frontend is on Heroku [here](ember-heroku-cors-client.herokuapp.com).
 
